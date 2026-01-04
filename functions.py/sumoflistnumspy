@@ -1,0 +1,8 @@
+def sum_all(nums):
+    count= 0
+    for num in nums:
+        count +=num
+    return count
+
+
+print(sum_all([1,32,5,6,8,89]))
